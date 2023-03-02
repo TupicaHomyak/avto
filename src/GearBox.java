@@ -3,6 +3,7 @@ public class GearBox {
     public static  final int MAX_GEAR = 6;
     public static  final int MIN_GEAR = 1;
 
+
     public void shiftUp() {   //метод повышающий скорость
        gear = gear < MAX_GEAR ? gear + 1: gear;
     }
